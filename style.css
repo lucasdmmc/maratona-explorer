@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+span {
+  color: #d406f0;
+}
+
 html {
   --bg-color: #EDF2FF;
   --text-color: #00082F;
@@ -27,16 +31,28 @@ body.pink {
   --primary-color-dark: #A61E4D;
 }
 
+body.toMe {
+  --text-color: #FFFFFF;
+  --primary-color: #7c0886ef;
+  --primary-color-dark: #370249ef;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
+
+  background-image: url(/1a1d50e7b916238e6f7da1c9706bd5f1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
   width: 300px;
   text-align: center;
   margin: 60px auto;
+  opacity: 0.7;
 }
 
 img {
@@ -58,10 +74,11 @@ h1 {
 }
 
 .username {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', sans-serif ;
   font-weight: 400;
   opacity: 0.8;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 ul {
@@ -70,6 +87,7 @@ ul {
 }
 
 ul li a {
+  font-family: 'Roboto', sans-serif ;
   height: 53px;
   display: flex;
   align-items: center;
