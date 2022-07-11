@@ -42,7 +42,7 @@ body {
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 
-  background-image: url(/Imagem/background.jpg);
+  background-image: url(/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
