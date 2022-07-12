@@ -35,8 +35,8 @@ body.toMe {
   --text-color: #FFFFFF;
   --primary-color: #7c0886ef;
   --primary-color-dark: #370249ef;
+  --bg-color: url(/imagens/background.jpg);
 
-  background-image: url(https://github.com/lucasdmmc.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
