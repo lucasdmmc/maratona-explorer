@@ -32,6 +32,7 @@ body.pink {
 }
 
 body.toMe {
+  --bg-color: #191a1d;
   --text-color: #ffffff;
   --primary-color: #7c0886ef;
   --primary-color-dark: #370249ef;
@@ -42,7 +43,7 @@ body.toMe {
 }
 
 body {
-  background-image: url(/imagens/background.jpg);
+  background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
