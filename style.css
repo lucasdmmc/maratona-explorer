@@ -32,7 +32,7 @@ body.pink {
 }
 
 body.toMe {
-  --bg-color: url(./imagens/background.jpg);
+  --bg-color: url(background.jpg);
   --text-color: #ffffff;
   --primary-color: #7c0886ef;
   --primary-color-dark: #370249ef;
